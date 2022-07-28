@@ -1,0 +1,50 @@
+.about-area {
+    /* background: rgba(0, 0, 0, 0) url(/project_1/image/bgImges01.jpg) no-repeat scroll center bottom / contain; */
+    position: relative;
+  }
+  /* .section-padding{
+    padding: 100px 0;
+  } */
+  .bg{
+      background-image: url(./image/bgImges01.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-top: 500px;
+      width: 100%;
+      height: 40%;
+      z-index: 3;
+  }
+  .area-title {
+    margin-bottom: 60px;
+  }
+  .about-area .area-title h2 {
+    font-size: 80px;
+    padding-bottom: 10px;
+    position: relative;
+  }
+  .area-title h2{
+    color: #ca3d26;
+    display: inline-block;
+    font-family: "Dancing Script", cursive;
+    font-size: 60px;
+    letter-spacing: 2px;
+    line-height: 0.8;
+    margin: 0;
+    padding: 0 20px 45px;
+    position: relative;
+    text-transform: capitalize;
+  }
+  .big-text {
+    float: left;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: -4px;
+    margin-right: 10px;
+    line-height: 1;
+}
+.about-content{
+    color: black;
+}
+.right-about-content{
+    color: black;
+}
